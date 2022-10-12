@@ -1,0 +1,25 @@
+{
+  "name": "color-name-api",
+  "version": "1.0.0",
+  "description": "Uma simples API que usa web scraping para retornar dados sobre alguma cor.",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizHenriqueLobo1/color-name-api.git"
+  },
+  "keywords": [],
+  "author": "Luiz Henrique Lobo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuizHenriqueLobo1/color-name-api/issues"
+  },
+  "homepage": "https://github.com/LuizHenriqueLobo1/color-name-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "puppeteer": "^18.2.1"
+  }
+}
